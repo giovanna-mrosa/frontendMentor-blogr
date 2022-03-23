@@ -1,0 +1,46 @@
+.footer-box {
+  background: var(--very-dark-black-blue);
+  margin-top: 100px;
+  border-radius: 0 62px 0 0;
+  display: flex;
+  padding: 60px 270px 40px 150px;
+  justify-content: space-between;
+
+  color: var(--white);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+
+  img {
+    height: fit-content;
+    width: 80px;
+  }
+
+  .links-box {
+    display: flex;
+    gap: 150px;
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      p {
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: -0.035em;
+        margin-bottom: 15px;
+      }
+
+      a {
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: -0.005em;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}
