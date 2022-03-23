@@ -1,6 +1,6 @@
 .nav-box {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,13 +26,64 @@
 
       .link-nav {
         display: flex;
+        position: relative;
         align-items: center;
         gap: 8px;
         cursor: pointer;
 
-        img {
+        &:hover {
+          text-decoration: underline;
+        }
+
+        .arrow {
           height: fit-content;
           width: 10px;
+        }
+
+        .invert-arrow {
+          transform: rotate(180deg);
+        }
+
+        .dropdown1 {
+          bottom: -180px;
+          left: -15px;
+        }
+
+        .dropdown2 {
+          bottom: -150px;
+          left: -15px;
+        }
+
+        .dropdown3 {
+          bottom: -120px;
+          left: -15px;
+        }
+
+        .dropdown {
+          display: flex;
+          flex-direction: column;
+          padding: 20px;
+          background-color: #fff;
+          border-radius: 4px;
+          position: absolute;
+          gap: 12px;
+          box-shadow: 0px 0px 19px 1px #00000026;
+          min-width: 140px;
+
+          transition: all ease 0.15s;
+
+          a {
+            color: var(--very-dark-black-blue);
+            font-weight: 300;
+
+            &:hover {
+              font-weight: 700;
+            }
+          }
+        }
+
+        .is-hidden {
+          opacity: 0;
         }
       }
     }
