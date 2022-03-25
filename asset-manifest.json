@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b37e061.css",
-    "main.js": "/static/js/main.d223c5ef.js",
-    "static/media/illustration-phones.svg": "/static/media/illustration-phones.fd23559f1d2f81f9e3f3340eeaf2467c.svg",
-    "static/media/logo.svg": "/static/media/logo.1591bc20b914c098a9cd6e423b1623c3.svg",
-    "static/media/illustration-laptop-mobile.svg": "/static/media/illustration-laptop-mobile.fe1ec0f05da01bb067fa78fca0b79d76.svg",
-    "static/media/illustration-laptop-desktop.svg": "/static/media/illustration-laptop-desktop.799209c2628b1f244e1512cc686f0162.svg",
-    "static/media/illustration-editor-desktop.svg": "/static/media/illustration-editor-desktop.c6c8050aa4dcf0c64b4406570c970d2b.svg",
-    "static/media/illustration-editor-mobile.svg": "/static/media/illustration-editor-mobile.b9c7941a96d06832fa27673be37499a4.svg",
-    "static/media/bg-pattern-intro-mobile.svg": "/static/media/bg-pattern-intro-mobile.3d70cc0d02948cb77851.svg",
-    "index.html": "/index.html",
-    "static/media/bg-pattern-intro-desktop.svg": "/static/media/bg-pattern-intro-desktop.bf6b3e1b727eabeffdc5.svg",
-    "static/media/bg-pattern-circles.svg": "/static/media/bg-pattern-circles.bae804b8cc1519f26c94.svg",
-    "static/media/icon-close.svg": "/static/media/icon-close.c6580312401807bc9f98867a80e2bc37.svg",
-    "static/media/icon-hamburger.svg": "/static/media/icon-hamburger.68867946847c3249542e85c3745a1e06.svg",
-    "static/media/icon-arrow-light.svg": "/static/media/icon-arrow-light.9ba0f38e6df41815773e653d50260ecd.svg",
-    "static/media/icon-arrow-dark.svg": "/static/media/icon-arrow-dark.5215f8d979a83644d14e8b69f6ee4633.svg",
-    "main.6b37e061.css.map": "/static/css/main.6b37e061.css.map",
-    "main.d223c5ef.js.map": "/static/js/main.d223c5ef.js.map"
+    "main.css": "/frontendMentor-blogr/static/css/main.90edea8c.css",
+    "main.js": "/frontendMentor-blogr/static/js/main.37aba753.js",
+    "static/media/illustration-phones.svg": "/frontendMentor-blogr/static/media/illustration-phones.fd23559f1d2f81f9e3f3340eeaf2467c.svg",
+    "static/media/logo.svg": "/frontendMentor-blogr/static/media/logo.1591bc20b914c098a9cd6e423b1623c3.svg",
+    "static/media/illustration-laptop-mobile.svg": "/frontendMentor-blogr/static/media/illustration-laptop-mobile.fe1ec0f05da01bb067fa78fca0b79d76.svg",
+    "static/media/illustration-laptop-desktop.svg": "/frontendMentor-blogr/static/media/illustration-laptop-desktop.799209c2628b1f244e1512cc686f0162.svg",
+    "static/media/illustration-editor-desktop.svg": "/frontendMentor-blogr/static/media/illustration-editor-desktop.c6c8050aa4dcf0c64b4406570c970d2b.svg",
+    "static/media/illustration-editor-mobile.svg": "/frontendMentor-blogr/static/media/illustration-editor-mobile.b9c7941a96d06832fa27673be37499a4.svg",
+    "static/media/bg-pattern-intro-mobile.svg": "/frontendMentor-blogr/static/media/bg-pattern-intro-mobile.3d70cc0d02948cb77851.svg",
+    "index.html": "/frontendMentor-blogr/index.html",
+    "static/media/bg-pattern-intro-desktop.svg": "/frontendMentor-blogr/static/media/bg-pattern-intro-desktop.bf6b3e1b727eabeffdc5.svg",
+    "static/media/bg-pattern-circles.svg": "/frontendMentor-blogr/static/media/bg-pattern-circles.bae804b8cc1519f26c94.svg",
+    "static/media/icon-close.svg": "/frontendMentor-blogr/static/media/icon-close.c6580312401807bc9f98867a80e2bc37.svg",
+    "static/media/icon-hamburger.svg": "/frontendMentor-blogr/static/media/icon-hamburger.68867946847c3249542e85c3745a1e06.svg",
+    "static/media/icon-arrow-light.svg": "/frontendMentor-blogr/static/media/icon-arrow-light.9ba0f38e6df41815773e653d50260ecd.svg",
+    "static/media/icon-arrow-dark.svg": "/frontendMentor-blogr/static/media/icon-arrow-dark.5215f8d979a83644d14e8b69f6ee4633.svg",
+    "main.90edea8c.css.map": "/frontendMentor-blogr/static/css/main.90edea8c.css.map",
+    "main.37aba753.js.map": "/frontendMentor-blogr/static/js/main.37aba753.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b37e061.css",
-    "static/js/main.d223c5ef.js"
+    "static/css/main.90edea8c.css",
+    "static/js/main.37aba753.js"
   ]
 }
