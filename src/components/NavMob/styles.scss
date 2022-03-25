@@ -31,7 +31,9 @@
     gap: 15px;
     align-items: center;
 
-    transition: all ease 0.25s;
+    overflow: hidden;
+
+    transition: all ease 0.9s;
 
     .first-link {
       color: var(--very-dark-black-blue);
@@ -114,8 +116,7 @@
   }
 
   .hidden-menu-box {
-    height: 0;
-    overflow: hidden;
+    top: -315px;
     padding: 0;
   }
 }

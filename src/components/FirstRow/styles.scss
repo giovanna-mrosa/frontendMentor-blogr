@@ -106,7 +106,8 @@
       width: 1324px;
     }
     .content-box-fr {
-      background: url(../../assets/bg-pattern-intro-mobile.svg) no-repeat;
+      background: url(../../assets/bg-pattern-intro-mobile.svg) no-repeat top -500px
+        right -650px;
 
       .content {
         text-align: center;
