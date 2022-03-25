@@ -86,6 +86,7 @@
         width: 40%;
         margin-right: 110px;
         color: var(--white);
+        font-family: 'Overpass', sans-serif;
 
         h1 {
           font-size: 37px;
@@ -100,6 +101,82 @@
           font-weight: 300;
           line-height: 27px;
           letter-spacing: 0.02em;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 100px;
+    overflow: visible;
+
+    .card1 {
+      flex-wrap: wrap;
+      text-align: center;
+      padding: 0 30px 0 30px;
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .content-cad1 {
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 0;
+        overflow: hidden;
+
+        .margin2 {
+          margin-right: 0;
+        }
+
+        .margin1 {
+          margin-left: 0;
+        }
+
+        .texts-box {
+          order: 2;
+        }
+
+        .landing-img {
+          width: 100%;
+          margin-right: 0;
+        }
+
+        .note-img {
+          width: 135%;
+          margin-left: 0;
+        }
+      }
+    }
+
+    .card2 {
+      height: 600px;
+      width: 100%;
+      margin-top: 215px;
+      margin-bottom: 50px;
+
+      .card2-content {
+        background-position: top -170px left -65px;
+        background-size: 500px 500px;
+        text-align: center;
+        padding: 0 30px;
+        align-items: flex-end;
+
+        .text-card2 {
+          width: 100%;
+          margin: 0;
+          padding-bottom: 70px;
+
+          p {
+            font-size: 18px;
+          }
+        }
+
+        .phone {
+          position: absolute;
+          transform: translateY(-30%);
+          left: 0px;
+          width: 100%;
         }
       }
     }

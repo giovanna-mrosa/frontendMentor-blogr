@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import logoImg from '../../assets/logo.svg'
 import arrowLight from '../../assets/icon-arrow-light.svg'

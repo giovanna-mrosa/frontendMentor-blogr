@@ -5,93 +5,122 @@
     var(--background-2) 100%
   );
   position: relative;
-  overflow: hidden;
   padding-bottom: 125px;
   border-radius: 0 0 0 62px;
+  height: 500px;
 
-  .bg-desktop-intro {
-    position: absolute;
-    right: -1390px;
-    top: -1335px;
-    z-index: 1;
-  }
-
-  .content {
-    z-index: 2;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  .content-box-fr {
     width: 100%;
-    margin-top: 80px;
-    gap: 40px;
+    background: url(../../assets/bg-pattern-intro-desktop.svg) no-repeat top -1335px
+      right -1370px;
+    height: 500px;
 
-    h1 {
-      font-family: 'Ubuntu', sans-serif;
-      font-size: 63px;
-      font-weight: 500;
-      line-height: 72px;
-      letter-spacing: -0.045em;
-      color: var(--white);
+    .content {
       z-index: 2;
-    }
-
-    p {
-      font-family: 'Overpass', sans-serif;
-      font-size: 20px;
-      font-weight: 300;
-      line-height: 25px;
-      letter-spacing: -0.005em;
-      color: var(--white);
-    }
-
-    .btn-box {
+      position: relative;
       display: flex;
-      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 80px;
+      gap: 40px;
 
-      .btn-start {
-        width: 139px;
-        height: 49px;
-        background: var(--white);
-        border-radius: 24px;
-        border: none;
-        outline: none;
-        cursor: pointer;
-
-        color: var(--light-red);
+      h1 {
         font-family: 'Ubuntu', sans-serif;
-        font-weight: 700;
-        font-size: 1rem;
-
-        transition: all ease 0.2s;
-
-        &:hover {
-          background: var(--very-light-red);
-          color: var(--white);
-        }
+        font-size: 63px;
+        font-weight: 500;
+        line-height: 72px;
+        letter-spacing: -0.045em;
+        color: var(--white);
+        z-index: 2;
       }
 
-      .btn-learn {
-        width: 139px;
-        height: 49px;
-        background: none;
-        border-radius: 24px;
-        border: 1px solid var(--white);
-        outline: none;
-        cursor: pointer;
-
+      p {
+        font-family: 'Overpass', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: -0.005em;
         color: var(--white);
-        font-family: 'Ubuntu', sans-serif;
-        font-weight: 700;
-        font-size: 1rem;
+      }
 
-        transition: all ease 0.2s;
+      .btn-box {
+        display: flex;
+        gap: 20px;
 
-        &:hover {
+        .btn-start {
+          width: 139px;
+          height: 49px;
           background: var(--white);
-          color: var(--light-red);
+          border-radius: 24px;
           border: none;
+          outline: none;
+          cursor: pointer;
+
+          color: var(--light-red);
+          font-family: 'Ubuntu', sans-serif;
+          font-weight: 700;
+          font-size: 1rem;
+
+          transition: all ease 0.2s;
+
+          &:hover {
+            background: var(--very-light-red);
+            color: var(--white);
+          }
+        }
+
+        .btn-learn {
+          width: 139px;
+          height: 49px;
+          background: none;
+          border-radius: 24px;
+          border: 1px solid var(--white);
+          outline: none;
+          cursor: pointer;
+
+          color: var(--white);
+          font-family: 'Ubuntu', sans-serif;
+          font-weight: 700;
+          font-size: 1rem;
+
+          transition: all ease 0.2s;
+
+          &:hover {
+            background: var(--white);
+            color: var(--light-red);
+            border: none;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    border-radius: 0 0 0 120px;
+
+    .bg-desktop-intro {
+      right: -615px;
+      top: -265px;
+      width: 1324px;
+    }
+    .content-box-fr {
+      background: url(../../assets/bg-pattern-intro-mobile.svg) no-repeat;
+
+      .content {
+        text-align: center;
+        padding: 0 40px;
+        gap: 25px;
+
+        h1 {
+          font-size: 35px;
+          line-height: 50px;
+        }
+
+        p {
+          font-size: 19px;
+          margin-bottom: 30px;
         }
       }
     }

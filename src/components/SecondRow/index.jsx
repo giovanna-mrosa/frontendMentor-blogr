@@ -1,12 +1,15 @@
 import React from "react";
 import landingPageImg from '../../assets/illustration-editor-desktop.svg'
+import landingPageImgMob from '../../assets/illustration-editor-mobile.svg'
 import phoneImg from '../../assets/illustration-phones.svg'
 import noteImg from '../../assets/illustration-laptop-desktop.svg'
+import noteImgMob from '../../assets/illustration-laptop-mobile.svg'
 
 import './styles.scss'
 import { Texts } from "../Texts";
 
 export function SecondRow() {
+  const widthScreen = window.screen.width;
   return (
     <>
     <div className="second-row-box">
@@ -23,7 +26,7 @@ export function SecondRow() {
             text="Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you're in full control."
           />
         </div>
-          <img src={landingPageImg} alt="Landing Page icon" className="landing-img" />
+          <img src={widthScreen > 768 ? landingPageImg : landingPageImgMob} alt="Landing Page icon" className="landing-img" />
         </div>
       </div>
       <div className="card2">
@@ -37,7 +40,11 @@ export function SecondRow() {
       </div>
       <div className="card1">
         <div className="content-cad1">
-          <img src={noteImg} alt="Note icon" className="note-img" />
+          <img 
+            src={widthScreen > 768 ? noteImg : noteImgMob} 
+            alt="Note icon" 
+            className="note-img" 
+          />
           <div className="texts-box margin2">
             <Texts 
               title="Free, open, simple" 

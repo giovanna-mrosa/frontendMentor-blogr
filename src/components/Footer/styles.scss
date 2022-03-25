@@ -43,4 +43,18 @@
       }
     }
   }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 60px 40px 40px 55px;
+
+    img {
+      margin-bottom: 55px;
+    }
+
+    .links-box {
+      flex-direction: column;
+      gap: 55px;
+    }
+  }
 }

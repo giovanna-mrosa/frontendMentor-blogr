@@ -16,4 +16,16 @@
     line-height: 27px;
     letter-spacing: 0.02em;
   }
+
+  @media (max-width: 768px) {
+    margin-bottom: 30px;
+
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 17px;
+    }
+  }
 }
